@@ -1,6 +1,6 @@
 ## Why
 
-Which pitch or problem this change comes from.
+Which plan or problem this change comes from.
 
 ## What
 
@@ -11,6 +11,8 @@ What changed. The commits hold the details, so summarize.
 What was verified and how. Also state what was not verified.
 
 ## Related
+
+<!-- Close the task issue, and refer to its parent issue if it has one. -->
 
 - Closes #
 - Refs #
