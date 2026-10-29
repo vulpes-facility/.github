@@ -37,7 +37,8 @@ Files whose purpose is recording history, such as `CHANGELOG.md`, migrations, an
 ### PR description
 
 The PR description MUST follow the organization's template, `.github/pull_request_template.md` of the `.github` repository.\
-Report each deviation with the location `description`.
+Report each deviation with the location `description`.\
+A pull request that an external service's bot opens, such as `dependabot[bot]` or `renovate[bot]`, follows that service's format, and its description is not reported under this section.
 
 | Rule | Finding |
 | --- | --- |
