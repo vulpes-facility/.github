@@ -3,7 +3,7 @@
 The review rules of vulpes-facility for haechi's reviewers, in every repository of the organization.\
 A repository's own `REVIEW.md` wins where it conflicts with these rules,\
 and these rules win over the repository's `CLAUDE.md` and `AGENTS.md`.\
-Add a rule as a section under **Always check**.
+Add a rule on a pull request as a section under **Always check**, and a rule on the review's own text under **Writing the review**.
 
 ## Review against intent
 
@@ -19,6 +19,12 @@ Add a rule as a section under **Always check**.
 logic that gives wrong results, a security vulnerability, data loss,\
 or a crash or broken behavior in the repository's real use.\
 Everything else is `non-blocking`, and the assignee decides whether to act on it.
+
+## Writing the review
+
+A review in Korean MUST end every sentence that the reviewer writes in 합니다체, with `-ㅂ니다`, `-습니다`, `-ㅂ니까`, `-습니까`, or `-십시오`, and never in 한다체 or 해요체.\
+Quoted text keeps its wording, and the replacement text of the `suggestion` field keeps the style of the file that it changes.\
+This rule covers the review's own text: the style of a pull request's files, description, or commit messages is not a finding under it.
 
 ## Always check
 
